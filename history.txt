@@ -1,0 +1,64 @@
+ 1424  mkdir git-majonez
+ 1425  cd git-majonez/
+ 1426  git init
+ 1427  touch main.cpp
+ 1428  vim main.cpp 
+ 1429  cat main.cpp 
+ 1430  git status
+ 1431  git add main.cpp 
+ 1432  git commit -m"Initial commit"
+ 1433  git status
+ 1434  git show
+ 1435  vim main.cpp 
+ 1436  git status
+ 1437  git add main.cpp 
+ 1438  git commit -m"Farewell changed"
+ 1439  git log
+ 1440  git remote add origin https://github.com/MaciekDavv/git-majonez.git
+ 1441  git push -u origin main
+ 1442  git status
+ 1443  git log
+ 1444  git show
+ 1445  git reflog
+ 1446  git push -u origin master
+ 1447  git branch cs
+ 1448  git status
+ 1449  git show
+ 1450  git log
+ 1451  git branch
+ 1452  git checkout cs 
+ 1453  git reset --hard
+ 1454  git show
+ 1455  git log
+ 1456  git reset --hard
+ 1457  git log
+ 1458  git status
+ 1459  git reset --hard HEAD^
+ 1460  git log
+ 1461  vim main.cpp 
+ 1462  git status
+ 1463  git add main.cpp 
+ 1464  git commit -m"Greetings"
+ 1465  git log
+ 1466  git push orgin cs
+ 1467  git push origin cs
+ 1468  git log
+ 1469  git branch
+ 1470  git checkout master 
+ 1471  git merge cs
+ 1472  git mergetool
+ 1473  git log
+ 1474  ls
+ 1475  cd repo/
+ 1476  ls
+ 1477  cd git-majonez/
+ 1478  ls
+ 1479  git status
+ 1480  cat main.cpp 
+ 1481  git add main.cpp 
+ 1482  git status
+ 1483  git commit
+ 1484  git status
+ 1485  git log
+ 1486  history
+ 1487  history | tail -64 > history.txt
