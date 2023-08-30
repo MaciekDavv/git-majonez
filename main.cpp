@@ -1,7 +1,7 @@
-#iclude <iostream>
+#include <iostream>
 
 int main()
 {
-	std::cout << "Hello Coders School" << '\n';s
+	std::cout << "Hello Coders School" << '\n';
 	return 0;
 }
